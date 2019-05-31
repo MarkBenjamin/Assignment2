@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CheckStyle-IDEA">
+    <option name="configuration">
+      <map>
+        <entry key="active-configuration" value="LOCAL_FILE:C:/Users/SiyanLi/OneDrive - benja565/KIT/12.Übung zu programmieren/Aufgaben/Übungsblatt2/requiredCheckstyleRules_02.xml:requiredCheckstyleRules_02" />
+        <entry key="checkstyle-version" value="8.20" />
+        <entry key="copy-libs" value="true" />
+        <entry key="location-0" value="BUNDLED:(bundled):Sun Checks" />
+        <entry key="location-1" value="BUNDLED:(bundled):Google Checks" />
+        <entry key="location-2" value="LOCAL_FILE:C:/Users/SiyanLi/OneDrive - benja565/KIT/12.Übung zu programmieren/Aufgaben/Übungsblatt2/optionalCheckstyleRules_02.xml:optionalCheckstyleRules_02" />
+        <entry key="location-3" value="LOCAL_FILE:C:/Users/SiyanLi/OneDrive - benja565/KIT/12.Übung zu programmieren/Aufgaben/Übungsblatt2/requiredCheckstyleRules_02.xml:requiredCheckstyleRules_02" />
+        <entry key="scan-before-checkin" value="false" />
+        <entry key="scanscope" value="Everything" />
+        <entry key="suppress-errors" value="true" />
+      </map>
+    </option>
+  </component>
+</project>

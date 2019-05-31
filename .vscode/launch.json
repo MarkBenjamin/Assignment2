@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "edu.kit.informatik.DigitalCheck.ui.Main",
+            "projectName": "Assignment2_2f78afcb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "edu.kit.informatik.ColorConvert.ui.Main",
+            "projectName": "Assignment2_2f78afcb"
+        }
+    ]
+}
