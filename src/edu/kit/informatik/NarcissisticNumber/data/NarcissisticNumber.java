@@ -1,7 +1,5 @@
 package edu.kit.informatik.NarcissisticNumber.data;
 
-import edu.kit.informatik.Terminal;
-
 /**
  * This class test whether a given number is a narcissistic number with basis.
  *

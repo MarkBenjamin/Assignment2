@@ -8,7 +8,13 @@ package edu.kit.informatik.DigitalCheck;
  */
 public class InputException extends Exception {
     /**
-     * The constructor of the InputException that is thrown if a user input is invalid.
+     *
+     */
+    private static final long serialVersionUID = 1L;
+
+    /**
+     * The constructor of the InputException that is thrown if a user input is
+     * invalid.
      *
      * @param message The error message to display to the user.
      */

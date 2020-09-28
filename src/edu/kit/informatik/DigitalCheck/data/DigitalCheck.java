@@ -1,11 +1,11 @@
 package edu.kit.informatik.DigitalCheck.data;
 
 /**
- * This class models the function of digital check, which checks whether the number illegal.
+ * This class models the function of digital check, which checks whether the
+ * number illegal.
  */
 public class DigitalCheck {
     private String input;
-    private long digitSum;
     private StringBuilder digitSumString = new StringBuilder("");
     private int sum = 0;
 
@@ -15,15 +15,18 @@ public class DigitalCheck {
     public DigitalCheck() {
     }
 
+    public void setDigitSum(final long digitSum) {
+    }
+
     /**
      * Read the input number.
      *
      * @param input  the input number to be tested.
      * @param withP1 prof whether this number is with p1.
      */
-    public void input(String input, boolean withP1) {
+    public void input(final String input, final boolean withP1) {
         this.input = input;
-        char[] charInput = this.input.toCharArray();
+        final char[] charInput = this.input.toCharArray();
         digitSumString = new StringBuilder("");
         digitSumString.append(charInput[0] - 64);
         digitSumString.append(charInput[1] - 64);
@@ -32,11 +35,12 @@ public class DigitalCheck {
         } else {
             digitSumString.append(input.substring(2, input.length()));
         }
-        digitSum = Long.valueOf(digitSumString.toString());
+        setDigitSum(Long.valueOf(digitSumString.toString()));
     }
 
     /**
-     * Get the digit sum which is calculated by the first characters and the last 9 numbers.
+     * Get the digit sum which is calculated by the first characters and the last 9
+     * numbers.
      *
      * @return the calculated number.
      */
@@ -58,7 +62,7 @@ public class DigitalCheck {
         for (int i = 0; i < digitSumString.length(); i++) {
             sum += Integer.valueOf(digitSumString.toString().charAt(i) - '0');
         }
-        int rest = (int) (sum % 9);
+        final int rest = (int) (sum % 9);
         if (rest == 7) {
             return 9;
         } else if (rest == 8) {

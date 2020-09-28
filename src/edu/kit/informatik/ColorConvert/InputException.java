@@ -8,6 +8,11 @@ package edu.kit.informatik.ColorConvert;
  */
 public class InputException extends Exception {
     /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
+
+    /**
      * The constructor of the InputException that is thrown if a user input is
      * invalid.
      *
